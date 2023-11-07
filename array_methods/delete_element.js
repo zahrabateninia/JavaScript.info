@@ -13,3 +13,12 @@ let arr = ["I", "go", "home"];
 
 arr.splice(0, 2, "You", "love");
 console.log(arr);
+
+let arr2 = ["I", "study", "JavaScript"];
+
+// from index 2
+// delete 0
+// then insert "complex" and "language"
+arr2.splice(2, 0, "complex", "language");
+
+console.log( arr2); // "I", "study", "complex", "language", "JavaScript"
