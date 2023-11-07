@@ -2,11 +2,14 @@
 
 let arr = ["I", "go", "home"];
 
-delete arr[1]; // remove "go"
+// delete arr[1]; // remove "go"
 
-alert( arr[1] ); // undefined
+// alert( arr[1] ); // undefined
 
-alert( arr.length ); // 3
+// alert( arr.length ); // 3
 
-arr.splice(1,1); // from index one, remove one element.
+// arr.splice(1,1); // from index one, remove one element.
 
+
+arr.splice(0, 2, "You", "love");
+console.log(arr);
